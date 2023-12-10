@@ -1,0 +1,8 @@
+node_modules
+*.git
+*.vscode
+*.idea
+.env
+*.vscode-insiders
+*.vscode-server
+*.vscode-test
