@@ -6,6 +6,4 @@ run command :
 1. npm install
 2. npm start
 
-
-
-https://prnt.sc/DFDswdOrR6eW
+[Visual](https://prnt.sc/DFDswdOrR6eW)
