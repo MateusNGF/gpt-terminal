@@ -24,7 +24,7 @@ import { Interface } from './src/presenter/index.js';
 
             const content = msg.replace("Digite uma mensagem: ", '')
 
-            IAService.chat(content, {
+            IAService.chatSync(content, {
                 onRead: (response) => presenter.write(response),
                 onFinish: () => {
                     presenter.write(`\n\n`)

@@ -8,7 +8,7 @@ export class OpenIA {
         this.#connection = new OpenAI();
     }
 
-    async chat(messages, { onRead, onFinish: onEnd }) {
+    async chatSync(messages, { onRead, onFinish: onEnd }) {
         try{
             
             const stream = await this.#connection.chat.completions.create({
